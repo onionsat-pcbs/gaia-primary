@@ -696,6 +696,14 @@
     [
       "7b77d13a-9a8b-42d2-a530-7929f32d7253",
       "Root"
+    ],
+    [
+      "617f059c-5d3f-4543-84fa-d182e0a74f79",
+      "Environmental Sensors"
+    ],
+    [
+      "8ba1b591-52d4-4baf-a54e-c2ecb3865ad4",
+      "Inertial Measurement Units"
     ]
   ],
   "text_variables": {}
