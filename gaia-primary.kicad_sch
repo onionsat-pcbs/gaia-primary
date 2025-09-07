@@ -3933,244 +3933,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+BATT"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+BATT"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+BATT\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power battery"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+BATT_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+BATT_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "power:-BATT"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "-BATT"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"-BATT\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power battery"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "-BATT_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 1.27) (xy -0.762 1.27) (xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "-BATT_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -4706,6 +4468,10 @@
 		(uuid "3ee7f5cd-712f-4177-bfbd-b94a8c30d7bb")
 	)
 	(no_connect
+		(at 57.15 80.01)
+		(uuid "51583d6e-5b25-4d83-b010-a54e676ae690")
+	)
+	(no_connect
 		(at 190.5 102.87)
 		(uuid "51b95b5f-f7a2-4f88-85dc-42ade8a98b4e")
 	)
@@ -4758,6 +4524,14 @@
 		(uuid "bccc9899-952e-4a78-a6a4-d3db758a6463")
 	)
 	(no_connect
+		(at 44.45 82.55)
+		(uuid "bee435b4-c76f-45a3-8098-d190be7e470c")
+	)
+	(no_connect
+		(at 57.15 82.55)
+		(uuid "c558c99b-3dcd-46f3-901d-d96ef46c5288")
+	)
+	(no_connect
 		(at 190.5 59.69)
 		(uuid "ccc0aa36-2341-4e22-80c4-fbf30fcc6435")
 	)
@@ -4768,6 +4542,10 @@
 	(no_connect
 		(at 57.15 41.91)
 		(uuid "da6a8415-93fa-4499-b5c9-24bf9aa92554")
+	)
+	(no_connect
+		(at 44.45 80.01)
+		(uuid "df87d0dd-94c7-4228-b72f-5373515e9590")
 	)
 	(no_connect
 		(at 44.45 41.91)
@@ -6043,16 +5821,6 @@
 		)
 		(uuid "101664b2-1709-40a7-8c07-d0f7cd42c15d")
 	)
-	(label "DEBUG_SWD_IO"
-		(at 261.62 97.79 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1750308e-346d-4a26-97f8-c7527f6e9731")
-	)
 	(label "DEBUG_NRST"
 		(at 189.23 40.64 90)
 		(effects
@@ -6062,6 +5830,16 @@
 			(justify left bottom)
 		)
 		(uuid "29e259f8-c992-4107-81fc-6b1b5b212f20")
+	)
+	(label "DEBUG_SWD_IO"
+		(at 261.62 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2ae455c4-6c87-4866-9dee-ae3e50aca7a1")
 	)
 	(label "GLOBAL_SDA"
 		(at 124.46 175.26 270)
@@ -6152,6 +5930,16 @@
 			(justify right bottom)
 		)
 		(uuid "493c37a4-75fe-4985-8d89-584aacc3331b")
+	)
+	(label "DEBUG_USART_RX"
+		(at 261.62 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5f72a411-c10f-49a3-8e3a-1a95e842e7b3")
 	)
 	(label "GLOBAL_SCL"
 		(at 187.96 85.09 180)
@@ -6343,16 +6131,6 @@
 		)
 		(uuid "c8efd8b0-b2c6-492b-a26e-6f7aa6f8c4f9")
 	)
-	(label "DEBUG_SWD_CLK"
-		(at 261.62 100.33 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "cbd1e757-91ac-4941-bd37-dc7ec6201523")
-	)
 	(label "SPI1_MISO"
 		(at 228.6 57.15 0)
 		(effects
@@ -6372,6 +6150,16 @@
 			(justify right bottom)
 		)
 		(uuid "ce755ba6-e623-4182-a38f-20c278bc5f4a")
+	)
+	(label "DEBUG_USART_TX"
+		(at 261.62 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cf64a627-38ca-420c-bae6-a10c87b22cf2")
 	)
 	(label "SPI1_SCK"
 		(at 133.35 105.41 0)
@@ -6433,15 +6221,15 @@
 		)
 		(uuid "ee65a131-13f3-4ee7-8397-52518b69d426")
 	)
-	(label "DEBUG_USART_RX"
-		(at 261.62 105.41 0)
+	(label "DEBUG_SWD_CLK"
+		(at 261.62 97.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "f0be9a51-4ba0-4f17-895c-0c1f86b0c046")
+		(uuid "f0b6b149-d8d3-442f-bd9a-c838e00eed85")
 	)
 	(label "VOUT_B1"
 		(at 44.45 67.31 180)
@@ -6452,16 +6240,6 @@
 			(justify right bottom)
 		)
 		(uuid "f75cd79d-a197-49a5-b2fe-4222f05a7848")
-	)
-	(label "DEBUG_USART_TX"
-		(at 261.62 102.87 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f9454ca1-b0f3-4af2-be28-4d45f0b96227")
 	)
 	(global_label "I2C_1_SDA"
 		(shape bidirectional)
@@ -6939,7 +6717,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+		(property "Footprint" "gaia-primary-footprints:SOT-23-5"
 			(at 118.11 60.325 0)
 			(effects
 				(font
@@ -8565,7 +8343,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm"
+		(property "Footprint" "gaia-primary-footprints:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm"
 			(at 35.56 168.91 0)
 			(effects
 				(font
@@ -8637,7 +8415,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_QFP:LQFP-48_7x7mm_P0.5mm"
+		(property "Footprint" "gaia-primary-footprints:LQFP-48_7x7mm_P0.5mm"
 			(at 193.04 113.03 0)
 			(effects
 				(font
@@ -8844,7 +8622,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "gaia-primary-footprints:SOT-23"
 			(at 52.705 106.68 0)
 			(effects
 				(font
@@ -9027,73 +8805,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+BATT")
-		(at 44.45 80.01 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "71fff764-83eb-4f9a-9fd7-35dbea2389ec")
-		(property "Reference" "#PWR0110"
-			(at 48.26 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+BATT"
-			(at 40.64 80.0099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 44.45 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 44.45 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 44.45 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "35c5e73b-093f-4d28-b492-515747cfed04")
-		)
-		(instances
-			(project "gaia-primary"
-				(path "/7b77d13a-9a8b-42d2-a530-7929f32d7253"
-					(reference "#PWR0110")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 57.15 77.47 90)
 		(unit 1)
@@ -9186,7 +8897,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "gaia-primary-footprints:PinHeader_1x07_P2.54mm_Vertical"
 			(at 254 102.87 0)
 			(effects
 				(font
@@ -9305,73 +9016,6 @@
 			(project "gaia-primary"
 				(path "/7b77d13a-9a8b-42d2-a530-7929f32d7253"
 					(reference "#PWR065")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:-BATT")
-		(at 57.15 82.55 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "78598001-2590-4a38-adb3-c49858f26f7d")
-		(property "Reference" "#PWR0115"
-			(at 53.34 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "-BATT"
-			(at 60.96 82.5499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 57.15 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 57.15 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"-BATT\""
-			(at 57.15 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6afef3fd-594f-4ccb-a793-110b7b8197dd")
-		)
-		(instances
-			(project "gaia-primary"
-				(path "/7b77d13a-9a8b-42d2-a530-7929f32d7253"
-					(reference "#PWR0115")
 					(unit 1)
 				)
 			)
@@ -9582,73 +9226,6 @@
 			(project "gaia-primary"
 				(path "/7b77d13a-9a8b-42d2-a530-7929f32d7253"
 					(reference "#PWR023")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:-BATT")
-		(at 44.45 82.55 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8358cf21-bb6a-4687-aa40-e4eba8a08054")
-		(property "Reference" "#PWR0111"
-			(at 48.26 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "-BATT"
-			(at 40.64 82.5499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 44.45 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 44.45 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"-BATT\""
-			(at 44.45 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4d714fcc-9192-4a9f-8306-229fdb3ae447")
-		)
-		(instances
-			(project "gaia-primary"
-				(path "/7b77d13a-9a8b-42d2-a530-7929f32d7253"
-					(reference "#PWR0111")
 					(unit 1)
 				)
 			)
@@ -10755,7 +10332,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm"
+		(property "Footprint" "gaia-primary-footprints:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm"
 			(at 124.46 168.91 0)
 			(effects
 				(font
@@ -10961,7 +10538,7 @@
 				)
 			)
 		)
-		(property "Footprint" "gaia_obc-footprints:PinHeader_2x10_P2.00mm_Vertical_SMD"
+		(property "Footprint" "gaia-primary-footprints:Gaia_connector_2_4layer"
 			(at 49.53 69.85 0)
 			(effects
 				(font
@@ -11085,7 +10662,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm"
+		(property "Footprint" "gaia-primary-footprints:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm"
 			(at 78.74 168.91 0)
 			(effects
 				(font
@@ -11225,7 +10802,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "gaia-primary-footprints:NX3225GD8MHZSTDCRA3"
 			(at 165.1 53.34 0)
 			(effects
 				(font
@@ -11834,7 +11411,7 @@
 				)
 			)
 		)
-		(property "Footprint" "gaia_obc-footprints:PinHeader_2x10_P2.00mm_Vertical_SMD"
+		(property "Footprint" "gaia-primary-footprints:Gaia_connector_2_4layer"
 			(at 49.53 34.29 0)
 			(effects
 				(font
@@ -11956,7 +11533,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+		(property "Footprint" "gaia-primary-footprints:SOT-23-5"
 			(at 118.11 23.495 0)
 			(effects
 				(font
@@ -12074,73 +11651,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+BATT")
-		(at 57.15 80.01 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f8086a68-a3af-46fd-9dbe-5af7839b52d1")
-		(property "Reference" "#PWR0114"
-			(at 53.34 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+BATT"
-			(at 60.96 80.0099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 57.15 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 57.15 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 57.15 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6e8f32a5-d33d-4dce-8495-07e85cbb0df0")
-		)
-		(instances
-			(project "gaia-primary"
-				(path "/7b77d13a-9a8b-42d2-a530-7929f32d7253"
-					(reference "#PWR0114")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Transistor_FET:BSS138")
 		(at 50.8 142.24 90)
 		(unit 1)
@@ -12166,7 +11676,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "gaia-primary-footprints:SOT-23"
 			(at 52.705 137.16 0)
 			(effects
 				(font

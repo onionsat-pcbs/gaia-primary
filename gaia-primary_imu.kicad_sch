@@ -3450,7 +3450,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 58.42 134.62 0)
 			(effects
 				(font
@@ -3585,7 +3585,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Sensor_Motion:InvenSense_QFN-24_3x3mm_P0.4mm"
+		(property "Footprint" "gaia-primary-footprints:InvenSense_QFN-24_3x3mm_P0.4mm"
 			(at 124.46 81.28 0)
 			(effects
 				(font
@@ -4592,7 +4592,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 58.42 111.76 0)
 			(effects
 				(font
@@ -4662,7 +4662,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Sensor_Motion:InvenSense_QFN-24_3x3mm_P0.4mm"
+		(property "Footprint" "gaia-primary-footprints:InvenSense_QFN-24_3x3mm_P0.4mm"
 			(at 50.8 80.01 0)
 			(effects
 				(font
